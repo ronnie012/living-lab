@@ -34,7 +34,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            'btn-primary': '#B68C5A',
+            'btn-primary': '#16a34a',
           }
         }
       }
@@ -46,45 +46,62 @@
 </head>
 
 <body>
-  <!-- Start of header Section. -->
+  <!-- start_header_section. -->
   <header class="w-[90%] mx-auto my-9">
-    <nav>
-      <div class="navbar bg-base-100">
+    <nav class="w-full overflow-hidden">
+      <div class="navbar bg-base-100 w-full px-4">
+        <!-- left_section (Logo) -->
         <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-poppins">
-              <li><a>Home</a></li>
-              <li><a>Services<i class="fa fa-angle-right"></i></a></li>
-              <li><a>Cases<i class="fa fa-angle-right"></i></a></li>
-              <li><a>Blog<i class="fa fa-angle-right"></i></a></li>
-              <li><a>Contact Us<i class="fa fa-angle-right"></i></a></li>
-            </ul>
-          </div>
-          <div class="flex gap-2">
-            <img class="w-40" src="./images/i.png" alt="">
-          </div>
+          <img class="w-40" src="./images/logo-header.png" alt="Logo">
         </div>
+    
+        <!-- center_nav(lg) -->
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-poppins text-[#707070]">
-            <li><a>Home</a></li>
-            <li><a>Services<i class="fa fa-angle-right"></i></a></li>
-            <li><a>Cases<i class="fa fa-angle-right"></i></a></li>
-            <li><a>Blog<i class="fa fa-angle-right"></i></a></li>
-            <li><a>Contact Us<i class="fa fa-angle-right"></i></a></li>
+          <ul class="menu menu-horizontal px-1 font-poppins text-lg text-[#4b4b4b]">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact us</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn btn-success border-none bg-btn-primary text-white lg:text-xl">Free Consultation</a>
+    
+        <!-- nav_right(hamburger+btns) -->
+        <div class="navbar-end gap-4">
+          <!-- hamburger_menu(sm) -->
+          <details class="dropdown lg:hidden">
+            <summary class="btn btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </summary>
+    
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-sora max-w-[90vw] overflow-hidden">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </details>
+    
+          <!-- login_&_register_btns(sm:hidden) -->
+          <div class="hidden md:flex gap-4">
+            <div class="mt-4 mr-4 ">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="mt-4 mr-4 ">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <a class="btn w-20 text-lg text-black bg-white border-green-600">Login</a>
+            <a class="btn btn-success border-none bg-btn-primary text-lg text-white pl-6 pr-6">Register</a>
+          </div>
         </div>
       </div>
     </nav>
+
+
+
+
+
+
   </header>
   <!-- End of header Section. -->
 
