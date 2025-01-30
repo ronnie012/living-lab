@@ -47,14 +47,15 @@
 
 <body>
   <!-- start_header_section. -->
-  <header class="w-[90%] mx-auto my-9">
+  <header class="w-full mx-auto my-9 bg-gradient-to-t from-[#edeae2] to-[#fffffe]">
+    <!-- nav_start -->
     <nav class="w-full overflow-hidden">
-      <div class="navbar bg-base-100 w-full px-4">
+      <div class="navbar bg-base-100 w-[90%] ml-6 lg:ml-16">
         <!-- left_section (Logo) -->
         <div class="navbar-start">
           <img class="w-40" src="./images/logo-header.png" alt="Logo">
         </div>
-    
+
         <!-- center_nav(lg) -->
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 font-poppins text-lg text-[#4b4b4b]">
@@ -63,17 +64,18 @@
             <li><a>Contact us</a></li>
           </ul>
         </div>
-    
+
         <!-- nav_right(hamburger+btns) -->
         <div class="navbar-end gap-4">
           <!-- hamburger_menu(sm) -->
           <details class="dropdown lg:hidden">
             <summary class="btn btn-ghost">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </summary>
-    
+
             <ul tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-sora max-w-[90vw] overflow-hidden">
               <li><a>Product</a></li>
@@ -81,7 +83,7 @@
               <li><a>Contact us</a></li>
             </ul>
           </details>
-    
+
           <!-- login_&_register_btns(sm:hidden) -->
           <div class="hidden md:flex gap-4">
             <div class="mt-4 mr-4 ">
@@ -96,17 +98,65 @@
         </div>
       </div>
     </nav>
+    <!-- nav_end -->
 
-
-
-
-
+    <!-- hero_start -->
+    <div class="hero">
+      <div class="flex flex-col">
+        <h1 class="font-sora text-3xl lg:text-6xl font-semibold text-center leading-10 mt-20 mb-8">Freshness <span
+            class="text-green-600">You Can <br>
+            Count</span> On, Prices You’ll Love!</h1>
+        <p class="font-sora xl:text-xl text-center mb-8 pl-6 pr-6">Shop your daily essentials at unbeatable prices. From
+          fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+        <img src="./images/hero-vegetables.png" alt="">
+      </div>
+    </div>
+    <!-- hero_end -->
 
   </header>
   <!-- End of header Section. -->
 
   <main>
-
+    <!-- services_start -->
+    <h1 class="font-sora font-semibold text-4xl text-left ml-10 lg:ml-20 mt-20 lg:mt-24 mb-10 text-green-600">Services</h1>
+    <!-- div>div*3>img+h3+p -->
+    <div class="flex flex-col lg:flex-row text-center gap-6 ml-8 lg:ml-20 mb-28">
+      <div class="w-[90%] h-auto lg:w-96 lg:h-80 p-8 bg-[#EFEBE3] rounded-lg">
+        <div class="flex justify-center w-full">
+          <!-- logo_container_circle -->
+          <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
+            <img class="mb-4" src="./images/service.png" alt="">
+          </div>
+        </div>
+        <h3 class="text-2xl font-semibold mt-2">24/7 Services</h3>
+        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt</p>
+      </div>
+      <div class="w-[90%] h-auto lg:w-96 lg:h-80 p-8 bg-[#EFEBE3] rounded-lg">
+        <div class="flex justify-center w-full">
+          <!-- logo_container_circle -->
+          <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
+            <img class="mb-4" src="./images/delivery.png" alt="">
+          </div>
+        </div>
+        <h3 class="text-2xl font-semibold mt-2">Fast Delivery</h3>
+        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt</p>
+      </div>
+      <div class="w-[90%] h-auto lg:w-96 lg:h-80 p-8 bg-[#EFEBE3] rounded-lg">
+        <div class="flex justify-center w-full">
+          <!-- logo_container_circle -->
+          <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
+            <img src="./images/healthy.png" alt="Logo" class="w-16 h-16">
+          </div>
+        </div>
+        <!-- <img class="mb-4" src="./images/healthy.png" alt=""> -->
+        <h3 class="text-2xl font-semibold mt-2">Healthy Products</h3>
+        <p class="text-xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt</p>
+      </div>
+    </div>
+    <!-- services_end -->
   </main>
 
   <footer>
