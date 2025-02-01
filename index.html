@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 
-<head>
+<!-- head_section_start -->
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>living-lab</title>
-  <!-- Google Font CDNs -->
+  <!-- google_font_cdns -->
   <!-- font-Sora -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <!-- daisyUI 4.12.23 CSS file + Tailwind CSS CDN -->
+  <!-- daisyUI_4.12.23_css_file_and_tailwind_css_cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -43,11 +44,13 @@
   <!-- Font Awesome CDN -->
   <script src="https://kit.fontawesome.com/d18f75e53f.js" crossorigin="anonymous"></script>
 
-</head>
+  </head>
+<!-- head_section_end -->
 
-<body>
-  <!-- start_header_section. -->
-  <header class="w-full mx-auto my-9 bg-gradient-to-t from-[#edeae2] to-[#fffffe]">
+<!-- body_section_start -->
+  <body>
+  <!-- header_section_start -->
+    <header class="w-full mx-auto my-9 bg-gradient-to-t from-[#edeae2] to-[#fffffe]">
     <!-- nav_start -->
     <nav class="w-full border-b-2 border-green-300 lg:border-b-0 overflow-hidden">
       <div class="navbar bg-base-100 w-[90%] ml-6 lg:ml-16">
@@ -58,7 +61,7 @@
 
         <!-- center_nav(lg) -->
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-poppins text-lg text-[#4b4b4b]">
+          <ul class="menu menu-horizontal px-1 font-sora text-lg text-[#4b4b4b]">
             <li><a>Product</a></li>
             <li><a>Services</a></li>
             <li><a>Contact us</a></li>
@@ -92,8 +95,8 @@
             <div class="mt-4 mr-4 ">
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <a class="btn w-20 text-lg text-black bg-white border-green-600">Login</a>
-            <a class="btn btn-success border-none bg-btn-primary text-lg text-white pl-6 pr-6">Register</a>
+            <a class="btn w-20 text-lg text-black font-sora bg-white border-green-600">Login</a>
+            <a class="btn btn-success border-none bg-btn-primary text-lg font-sora text-white pl-6 pr-6">Register</a>
           </div>
         </div>
       </div>
@@ -117,12 +120,13 @@
     </section>
     <!-- hero_end -->
 
-  </header>
-  <!-- End of header Section. -->
+    </header>
+  <!-- header_section_end -->
 
-  <main>
+  <!-- main_section_start -->
+    <main>
     <!-- services_start -->
-    <section>
+      <section>
       <h1 class="font-sora font-semibold text-3xl lg:text-4xl text-left ml-7
      lg:ml-20 mt-0 lg:mt-24 mb-0 text-green-600">Services</h1>
       <!-- div>div*3>img+h3+p -->
@@ -131,56 +135,55 @@
           <div class="flex justify-center w-full">
             <!-- logo_container_circle -->
             <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-              <img class="mb-4" src="./images/service.png" alt="">
+              <img src="./images/service.png" alt="services_logo" class="w-[80%] h-[80%] ml-0 mr-3 object-contain">
             </div>
           </div>
-          <h3 class="text-2xl font-semibold mt-2">24/7 Services</h3>
-          <p class="text-xl mt-2">Get fresh fruits and vegetables anytime with our reliable, round-the-clock service.
+          <h3 class="text-2xl font-sora font-semibold mt-2">24/7 Services</h3>
+          <p class="text-xl font-sora mt-2">Get fresh fruits and vegetables anytime with our reliable, round-the-clock service.
           </p>
         </div>
         <div class="w-[90%] h-auto lg:w-96 lg:h-80 p-8 bg-[#EFEBE3] rounded-lg">
           <div class="flex justify-center w-full">
             <!-- logo_container_circle -->
             <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-              <img class="mb-4" src="./images/delivery.png" alt="">
+              <img src="./images/delivery.png" alt="delivery-logo" class="w-[90%] h-[90%] mb-2 mr-2 object-contain">
             </div>
           </div>
-          <h3 class="text-2xl font-semibold mt-2">Fast Delivery</h3>
-          <p class="text-xl mt-2">Enjoy quick, hassle-free delivery ensuring farm-fresh produce reaches your doorstep
+          <h3 class="text-2xl font-sora font-semibold mt-2">Fast Delivery</h3>
+          <p class="text-xl font-sora mt-2">Enjoy quick, hassle-free delivery ensuring farm-fresh produce reaches your doorstep
             fast.</p>
         </div>
         <div class="w-[90%] h-auto lg:w-96 lg:h-80 p-8 bg-[#EFEBE3] rounded-lg">
           <div class="flex justify-center w-full">
             <!-- logo_container_circle -->
             <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-              <img src="./images/healthy.png" alt="Logo" class="w-16 h-16">
+              <img src="./images/healthy.png" alt="healthy_logo" class="w-[95%] h-[95%] mt-6 ml-1 object-contain">
             </div>
           </div>
           <!-- <img class="mb-4" src="./images/healthy.png" alt=""> -->
-          <h3 class="text-2xl font-semibold mt-2">Healthy Products</h3>
-          <p class="text-xl mt-2">We provide fresh, organic, and nutrient-rich fruits and vegetables for a healthier
+          <h3 class="text-2xl font-sora font-semibold mt-2">Healthy Products</h3>
+          <p class="text-xl font-sora mt-2">We provide fresh, organic, and nutrient-rich fruits and vegetables for a healthier
             life.</p>
         </div>
       </div>
-    </section>
+      </section>
     <!-- services_end -->
 
-
     <!-- popular_products_start -->
-    <section class="pl-2 pr-2 lg:pl-20 lg:pr-20 mt-32 bg-[#EFEBE3]">
+      <section class="pl-2 pr-2 lg:pl-20 lg:pr-20 mt-32 bg-[#EFEBE3]">
       <h1 class="font-sora font-semibold text-3xl lg:text-4xl text-left pt-16 pb-8 text-green-600">Popular Products</h1>
       <div class="grid lg:grid-cols-3 gap-6 lg:gap-x-0 pb-20">
         <!-- big_card -->
         <div
           class="relative w-auto lg:w-[370px] h-[335px] lg:h-full bg-gradient-to-br from-[#67ce4c] to-[#e6fae2] rounded-lg">
-          <h3 class="text-white text-4xl font-bold mt-8 mb-4 pl-4">30% Off</h3>
-          <p class="mb-4 pl-4">Discover a world of Organic and Fresh <br> Fruits and Vegetables.</p>
-          <button class="bg-white font-semibold ml-4 pl-4 pr-4 pt-1 pb-1 rounded-lg">Shop Now</button>
+          <h3 class="font-sora text-white text-4xl font-bold mt-8 mb-4 pl-4">30% Off</h3>
+          <p class="font-sora mb-4 pl-4">Discover a world of Organic and Fresh <br> Fruits and Vegetables.</p>
+          <button class="font-sora bg-white font-semibold ml-4 pl-4 pr-4 pt-1 pb-1 rounded-lg">Shop Now</button>
           <img class="w-60 h-52 lg:w-auto lg:h-auto absolute bottom-0 right-0  lg:mr-2 lg:bottom-0 lg:right-0"
             src="./images/vegetable-offer.png" alt="">
         </div>
         <!-- small_cards -->
-        <div class="w-fit grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-2 lg:gap-6 lg:gap-x-10 lg:col-span-2">
+        <div class="font-sora w-fit grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-2 lg:gap-6 lg:gap-x-10 lg:col-span-2">
           <div class="pl-2 w-auto h-20 lg:w-64 lg:h-28 bg-white rounded-lg flex justify-center items-center gap-4">
             <img class="bg-[#EFEBE3] rounded-lg" src="./images/onion.png" alt="">
             <div>
@@ -282,22 +285,22 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>
     <!-- popular_products_end -->
 
     <!-- arrivals_and_offers_start -->
-    <section class="mt-0 mb-16 lg:ml-4 lg:mt-1 lg:mb-20">
-      <h1 class="ml-4 lg:ml-16 font-sora font-semibold text-3xl lg:text-4xl text-left pt-16 pb-8 text-green-600">Arrival
+      <section class="mt-0 mb-16 lg:ml-4 lg:mt-1 lg:mb-20">
+      <h1 class="ml-4 lg:ml-16 font-sora font-semibold text-3xl lg:text-4xl text-left pt-16 pb-8 text-green-600">Arrivals
         & Offers</h1>
       <div class="flex flex-col lg:flex-row lg:justify-center items-center gap-2 lg:gap-10">
         <div class="w-[95%] h-[95%] lg:w-[700px] lg:h-80 flex justify-between bg-green-800 rounded-xl">
           <div class="pl-4 lg:pl-8 lg:pt-6 flex flex-col justify-center items-center">
             <img class="mt-6 mb-4 lg:mb-8" src="./images/dawat-logo.png" alt="">
             <button
-              class="w-full lg:w-52 lg:mb-9 mt-2 mb-4 lg:mt-2 p-1 lg:pt-2 lg:pb-2 rounded lg:rounded-lg text-white text-xs font-semibold bg-green-500">
+              class="w-full lg:w-52 lg:mb-9 mt-2 mb-4 lg:mt-2 p-1 lg:pt-2 lg:pb-2 rounded lg:rounded-lg text-white font-poppins text-xs font-semibold bg-green-500">
               Cook Exotic Dishes
             </button>
-            <h2 class="lg:text-3xl lg:mb-6 lg:mt-2 text-white">UP to <span class="font-extrabold">20% OFF</span></h2>
+            <h2 class="font-poppins lg:text-3xl lg:mb-6 lg:mt-2 text-white">UP to <span class="font-extrabold">20% OFF</span></h2>
           </div>
           <div class="lg:pt-8">
             <img class="pt-6 h-[95%] lg:h-[97%]" src="./images/dawat-mock-up.png" alt="">
@@ -307,29 +310,106 @@
           <div>
             <img src="./images/india-gate-logo.png" alt="">
             <button
-              class="w-full lg:w-52 lg:mb-9 lg:mt-2 p-1 lg:pt-2 lg:pb-2 rounded lg:rounded-lg text-xs text-white font-semibold bg-blue-600">
+              class="w-full lg:w-52 lg:mb-9 lg:mt-2 p-1 lg:pt-2 lg:pb-2 rounded lg:rounded-lg text-xs text-white font-poppins font-semibold bg-blue-600">
               World’s No.1 Rice
             </button>
-            <h2 class="lg:text-3xl lg:mb-6 lg:mt-2 text-white">UP to <span class="font-extrabold">40% OFF</span></h2>
+            <h2 class="font-poppins lg:text-3xl lg:mb-6 lg:mt-2 text-white">UP to <span class="font-extrabold">40% OFF</span></h2>
           </div>
           <div>
             <img class="h-[160px] lg:h-full" src="./images/india-gate-mock-up.png" alt="">
           </div>
         </div>
       </div>
-    </section>
+      </section>
     <!-- arrivals_and_offers_end -->
 
-    <!-- get_grocery_news_start -->
-    <section>
+    <!-- Start of FAQ Section. -->
+      <section class="w-[90%] h-[90%] mx-auto my-9 text-center bg-cover bg-center rounded-lg ">
+      <h1 class="font-sora text-5xl font-extrabold mb-6 mt-28 text-green-600">Frequently Asked Questions</h1>
+      <p class="font-poppins text-xl mb-16">Got questions? We've got answers!
+        Discover quick solutions and helpful tips for a seamless shopping experience.
+      </p>
+      <div class="flex flex-col-reverse lg:flex-row lg:justify-end">
+        <div class="lg:w-1/2 ">
+          <div class="p-4 collapse collapse-plus bg-base-200 mb-6 bg-green-300">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-sora text-left font-extrabold eb-garamond">1. How do I place an order online?
+            </div>
+            <div class="collapse-content text-left ">
+              <p class="font-poppins lg:pr-6">
+                Answer: <br>
+                Placing an order is simple! Browse our online catalog by category or use the search bar to find specific
+                items. Add your
+                chosen products to the cart, review your order, and proceed to checkout. We offer multiple payment
+                options—including
+                credit/debit cards, digital wallets, and secure online banking—to ensure a smooth and safe transaction
+                process.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 collapse collapse-plus bg-base-200 mb-6 bg-green-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-sora text-left font-extrabold eb-garamond">2. What delivery options are
+              available, and how soon can I receive my order?</div>
+            <div class="collapse-content text-left ">
+              <p class="font-poppins lg:pr-6">
+                Answer: <br>
+                We offer a range of delivery options to fit your schedule:
+                Same-Day Delivery: Order before our cutoff time to receive your groceries the same day in select areas.
+                Scheduled Delivery: Choose a convenient time slot that works for you.
+                Express Delivery: For urgent orders, select our express service where available.
+                Delivery times and fees may vary based on your location and order size. Check our Delivery Information
+                page at checkout
+                for detailed estimates.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 collapse collapse-plus bg-base-200 mb-6 bg-green-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-sora text-left font-extrabold eb-garamond">3. How do I track my order once
+              it’s been placed?</div>
+            <div class="collapse-content text-left">
+              <p class="font-poppins lg:pr-6">
+                Answer: <br>
+                After your order is confirmed, you’ll receive an email and/or SMS with a unique tracking link. Simply
+                click the link to
+                view real-time updates on your delivery status. You can also log into your account on our website to
+                access the “My
+                Orders” section for a complete history and current tracking details.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 collapse collapse-plus bg-base-200 bg-green-300">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-sora text-left font-extrabold eb-garamond">4. What is your return and refund
+              policy?</div>
+            <div class="collapse-content text-left ">
+              <p class="font-poppins lg:pr-6">
+                Answer: <br>
+                We strive to ensure you’re completely satisfied with your purchase. If you receive damaged or incorrect
+                items, please
+                contact our customer service team within 48 hours of delivery. We will arrange for a replacement,
+                refund, or credit
+                according to your preference. For more details on eligible items and the return process, please visit
+                our Return Policy
+                page or reach out to our support team.
+              </p>
+            </div>
+          </div>
 
-    </section>
-    <!-- get_grocery_news_end -->
+        </div>
+        <div class="flex justify-end mb-6">
+          <img class="lg:w-[80%]" src="./images/faq.png" alt="">
+        </div>
+      </div>
+      </section>
+    <!-- End of FAQ Section. -->
 
-  </main>
+    </main>
+  <!-- main_section_end -->
 
-  <!-- footer-and_overlapping_card_in_relative_div_start -->
-  <div class="relative">
+  <!-- footer_and_overlapping_card_in_relative_div_start -->
+    <div class="relative">
     <!-- overlapping_get_grocery_news_card_start -->
     <div
       class="absolute w-5/6 -top-56 right-8 lg:w-5/6 lg:-top-52 lg:right-28 flex flex-col lg:flex-row gap-4 p-4 bg-[#EFEBE4] rounded-3xl z-20">
@@ -338,7 +418,7 @@
       </div>
       <div class="flex flex-col gap-4 justify-center items-center lg:items-start text-center">
         <h2 class="text-2xl lg:text-4xl font-bold text-green-600 lg:text-black">Get Grocery News!</h2>
-        <p class="text-xs lg:text-xl">Exclusive training tips, ticks, product deals and more.</p>
+        <p class="text-xs lg:text-xl">Exclusive training tips, tricks, product deals and more.</p>
         <input class="w-11/12 lg:mt-8 lg:mb-10 pt-3 pb-3 pl-3 rounded-lg" type="text" placeholder="Enter email....">
         <button class="text-white bg-green-600 pl-6 pr-6 pt-1 pb-1 rounded-lg">Subscribe</button>
       </div>
@@ -372,9 +452,10 @@
       </div>
     </footer>
     <!-- footer_end -->
-  </div>
+    </div>
   <!-- footer-and_overlapping_card_in_relative_div_end -->
-</body>
+  </body>
+<!-- body_section_end -->
 
 </html>
 
