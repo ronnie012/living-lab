@@ -106,7 +106,8 @@
         <div class="flex flex-col">
           <h1 class="font-sora text-3xl pl-8 pr-8 lg:text-6xl font-semibold text-center leading-10 mt-20 mb-8">Freshness
             <span class="text-green-600">You Can <br>
-              Count</span> On, Prices You’ll Love!</h1>
+              Count</span> On, Prices You’ll Love!
+          </h1>
           <p class="font-sora xl:text-xl text-center mb-8 pl- pr-4">Shop your daily essentials at unbeatable prices.
             From
             fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
@@ -327,32 +328,54 @@
 
   </main>
 
-  <!-- footer_start -->
-  <footer class="pl-2 pr-2 lg:pl-20 lg:pr-20 mt-72 pt-64 pb-32 text-white bg-[#179800]">
-    <div class="flex flex-col gap-16 pl-6 lg:flex-row lg:justify-between lg:items-end">
-      <div>
-        <img src="images/logo-footer.png" alt="">
-        <p class="mt-6 text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+  <!-- footer-and_overlapping_card_in_relative_div_start -->
+  <div class="relative">
+    <!-- overlapping_get_grocery_news_card_start -->
+    <div
+      class="absolute w-5/6 -top-56 right-8 lg:w-5/6 lg:-top-52 lg:right-28 flex flex-col lg:flex-row gap-4 p-4 bg-[#EFEBE4] rounded-3xl z-20">
+      <div class="lg:p-6 ">
+        <img src="./images/vegetable-busket.png" alt="">
       </div>
-      <div>
-        <ul class="flex flex-col gap-4 text-xl">
-          <li>Product</li>
-          <li>Services</li>
-          <li>Contact us</li>
-        </ul>
-      </div>
-      <div class="flex flex-col gap-6">
-        <h5 class="text-xl">Follow Us</h5>
-        <div class="flex text-3xl gap-8">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
+      <div class="flex flex-col gap-4 justify-center items-center lg:items-start text-center">
+        <h2 class="text-2xl lg:text-4xl font-bold text-green-600 lg:text-black">Get Grocery News!</h2>
+        <p class="text-xs lg:text-xl">Exclusive training tips, ticks, product deals and more.</p>
+        <input class="w-11/12 lg:mt-8 lg:mb-10 pt-3 pb-3 pl-3 rounded-lg" type="text" placeholder="Enter email....">
+        <button class="text-white bg-green-600 pl-6 pr-6 pt-1 pb-1 rounded-lg">Subscribe</button>
       </div>
     </div>
-  </footer>
-  <!-- footer_end -->
+    <!-- overlapping_get_grocery_news_card_end -->
+
+    <!-- footer_start -->
+    <footer class="relative pl-2 pr-2 lg:pl-20 lg:pr-20 mt-72 pt-64 pb-32 text-white bg-[#179800]">
+      <div class="flex flex-col gap-16 pl-6 lg:flex-row lg:justify-between lg:items-end">
+        <div>
+          <img src="images/logo-footer.png" alt="">
+          <p class="mt-6 text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry
+            friends</p>
+        </div>
+        <div>
+          <ul class="flex flex-col gap-4 text-xl">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-6">
+          <h5 class="text-xl">Follow Us</h5>
+          <div class="flex text-3xl gap-8">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer_end -->
+  </div>
+  <!-- footer-and_overlapping_card_in_relative_div_end -->
 </body>
 
 </html>
+
+
