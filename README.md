@@ -21,16 +21,16 @@ The Nature's Platter Grocery Shopping Web Application enables users to browse an
 - **Live Link**:
     Nature's Platter (https://ronnie012.github.io/living-lab/)
 
-<!--
+
 ## Getting Started
 
-To explore or contribute to the Living Lab project, follow these steps to set up the application locally.
+To explore this project, follow these steps to set up the application locally.
 
 ### Prerequisites
 
 - A modern web browser (e.g., Chrome, Firefox)
 - Git
-- (Optional) Node.js and npm for development with TailwindCSS or additional JavaScript dependencies
+<!-- - (Optional) Node.js and npm for development with TailwindCSS or additional JavaScript dependencies -->
 
 ### Installation
 
@@ -38,11 +38,11 @@ To explore or contribute to the Living Lab project, follow these steps to set up
    ```bash
    git clone https://github.com/ronnie012/living-lab.git
    ```
-2. Navigate to the project directory:
+2. Open the project in VS Code and Go Live with live server:
    ```bash
    cd living-lab
    ```
-3. If using TailwindCSS via a build process, install dependencies:
+<!-- 3. If using TailwindCSS via a build process, install dependencies:
    ```bash
    npm install
    ```
@@ -56,7 +56,7 @@ To explore or contribute to the Living Lab project, follow these steps to set up
      npm start
      ```
 5. Open your browser and visit `http://localhost:8000` to view the application.
--->
+ -->
 
 ## Usage
 
