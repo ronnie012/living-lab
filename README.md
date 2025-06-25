@@ -4,7 +4,7 @@ Welcome to the Living Lab repository! This repository hosts a responsive web app
 
 ## About the Project
 
-The Living Lab Grocery Shopping Web Application enables users to browse and purchase fresh fruits, vegetables, and pantry staples with ease. Key features include 24/7 availability, fast delivery options, and a focus on healthy, organic products. This project demonstrates my expertise in creating intuitive, responsive web interfaces tailored to real-world needs.
+The Nature's Platter Grocery Shopping Web Application enables users to browse and purchase fresh fruits, vegetables, and pantry staples with ease. Key features include 24/7 availability, fast delivery options, and a focus on healthy, organic products. This project demonstrates my expertise in creating intuitive, responsive web interfaces tailored to real-world needs.
 
 - **Technologies Used**:
   - HTML
