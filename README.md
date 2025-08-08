@@ -2,6 +2,8 @@
 
 Welcome to the Living Lab repository! This repository hosts a responsive web application designed for online grocery shopping, offering fresh produce, competitive prices, and user-friendly services. Built with modern front-end technologies, it provides a seamless shopping experience for daily essentials.
 
+![Nature's Platter](living-lab_ronnie012.github.io.png)
+
 ## About the Project
 
 The Nature's Platter Grocery Shopping Web Application enables users to browse and purchase fresh fruits, vegetables, and pantry staples with ease. Key features include 24/7 availability, fast delivery options, and a focus on healthy, organic products. This project demonstrates my expertise in creating intuitive, responsive web interfaces tailored to real-world needs.
@@ -105,7 +107,7 @@ For inquiries, feedback, or collaboration opportunities, please reach out:
 
 - **Email**: [m.sharful.i247@gmail.com](mailto:m.sharful.i247@gmail.com)
 - **GitHub**: [ronnie012](https://github.com/ronnie012)
-- **Phone**: +8801870650965
+- **Contact (Phone/WhatsApp)**: +8801870650965
 
 <!--
 ## License
